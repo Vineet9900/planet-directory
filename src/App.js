@@ -15,14 +15,9 @@ function App() {
   };
 
   console.log("nextData", data);
-  // const fetchResidentName = async() => {
-  //   const resident= await axios.get(`${data}`)
-  //   console.log("resident", resident)
-
-  // }
   useEffect(() => {
     fetchPlanets();
-    // fetchResidentName()
+ 
   }, [page]);
 
   return (
